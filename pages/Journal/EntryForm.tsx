@@ -2,9 +2,9 @@ import EntryMenu from "./EntryMenu"
 
 const EntryForm = () => {
     return (
-        <div className="w-6/12 border-2">
+        <div className="w-5/12 h-full border-2 rounded-lg">
             <EntryMenu />
-            <textarea value="Write Here"className="w-full h-1/2 border-none focus:border-none focus:ring-0">
+            <textarea className="w-full border-none rounded-lg focus:border-none focus:ring-0">
             </textarea>
         </div>
     )

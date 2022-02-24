@@ -4,9 +4,9 @@ import JournalEntries from "./JournalEntries"
 import NewEntry from "./NewEntry"
 const Journal = () => {
     return (
-        <div className="w-screen h-screen flex">
+        <div className="flex items-center">
             <NavMenu />
-            <div className="flex flex-col">
+            <div className="flex flex-col h-screen">
             <NewEntry />
             <JournalEntries />
             </div>
